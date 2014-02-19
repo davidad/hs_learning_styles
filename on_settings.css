@@ -1,0 +1,19 @@
+#sliders {
+  display: inline;
+  float:left;
+  margin-right:0;
+  width:244px;
+  padding-right: 360px;
+  padding:1px;
+}
+#sliders div span:first-child {
+  float:left;
+  margin-left: 12px;
+}
+#sliders div span:last-child {
+  float:right;
+  margin-right: 12px;
+}
+#sliders input {
+  width: 100%;
+}

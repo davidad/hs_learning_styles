@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "HS Learning Styles",
+  "version": "0.0.1",
+  "description": "On Hacker School profiles, displays sliders for Mel Chua's suggested `learning styles' attributes. People can modify their own sliders from a browser action.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.hackerschool.com/people*"],
+      "css": ["on_profile.css"],
+      "js": ["general.js"]
+    },
+    {
+      "matches": ["*://*.hackerschool.com/settings*"],
+      "css": ["on_settings.css"],
+      "js": ["general.js"]
+    }
+  ],
+  "permissions": [
+     "http://aditi.davidad.net/"
+  ]
+}
+

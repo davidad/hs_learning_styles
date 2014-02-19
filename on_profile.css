@@ -1,0 +1,15 @@
+#sliders div {
+  width: 400px;
+  margin-bottom: 5px;
+}
+#sliders div span:first-child {
+  float:left;
+  margin-left: 20px;
+}
+#sliders div span:last-child {
+  float:right;
+  margin-right: 20px;
+}
+#sliders input {
+  width: 100%;
+}
